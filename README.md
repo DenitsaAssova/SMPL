@@ -20,7 +20,7 @@ python2 extract_model_param.py -g female -m './Data/basicmodel_f_lbs_10_207_0_v1
 If you choose a different directory to save the data, make sure to specify the correct paths in ``main.cpp``.
 
 ## Usage
-Specify the desired beta and theta parameters in the ``./Data/blend_shapes`` file. The first 10 values represent the beta and the next 23*3 values - the theta. The beta parameters represent the coefficients that determine the shape of the body. By adjusting these parameters, you can generate different body shapes, such as slim, muscular, or obese, within the model. The theta parameters define the rotation of each joint in the body, allowing the model to be posed in different configurations. Adjusting theta parameters changes the pose of the body, enabling it to take various positions and movements. After building the project, you will have an executable program called ``smpl``. Run it as follows to obtain the model point cloud consisting of 6890 3D points:
+Specify the desired beta and theta parameters in the ``./Data/blend_shapes`` file. The first 10 values represent the beta and the next 23*3 values - the theta. The beta parameters represent the coefficients that determine the shape of the body. By adjusting these parameters, you can generate different body shapes, such as slim, muscular, or obese, within the model. The theta parameters define the rotation of each joint in the body, allowing the model to be posed in different configurations. Adjusting theta parameters changes the pose of the body, enabling it to take various positions. After building the project, you will have an executable program called ``smpl``. Run it as follows to obtain the model point cloud consisting of 6890 3D points:
 ```
 ./smpl ./Data/blend_shapes 
 ```
