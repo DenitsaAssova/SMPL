@@ -35,7 +35,9 @@ Option -h shows the usage manual.
 
 ## Results
 The images below illustrate several outcomes following adjustments to the beta and theta parameters.
-<div style="display: flex;">
-    <img src="/Results/smpl1.png" style="width: 50%;">
-    <img src="Results/smpl2.png" style="width: 50%;">
-</div>
+<table>
+  <tr>
+    <td><img src="/Results/smpl1.png" style="width: 50%;"></td>
+    <td><img src="/Results/smpl2.png" style="width: 50%;"></td>
+  </tr>
+</table>
