@@ -33,7 +33,7 @@ Option -h shows the usage manual.
 ./smpl -h
 ```
 
-##Results
+## Results
 The images below illustrate several outcomes following adjustments to the beta and theta parameters.
 ![](/Results/smpl1.png){: style="display: inline-block; width: 45%; height: 500px;"}
 ![](/Results/smpl2.png){: style="display: inline-block; width: 45%; height: 500px; margin-left: 10px;"}
